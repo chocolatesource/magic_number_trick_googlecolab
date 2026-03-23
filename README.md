@@ -8,6 +8,7 @@ Consider question 2020 6a in core
  <img width="974" height="305" alt="image" src="https://github.com/user-attachments/assets/3430eafc-fe84-4b84-81aa-d4f1891bb52d" />
  
 By making the equation into the calculator
+
 It can solve by sub. x into i in complex number in calculator 
 real part = degree 0
 imaginary part  = degree 1
