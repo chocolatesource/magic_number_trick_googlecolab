@@ -15,6 +15,9 @@ imaginary part  = degree 1
 
 
 
+
+
+
 Consider question 2018 11ai in m2 past paper 
  <img width="974" height="318" alt="image" src="https://github.com/user-attachments/assets/7676155e-5a42-4918-bce4-734e7861e644" />
  
@@ -39,6 +42,9 @@ hand calculate degree 3 part
 sub x = i
 degree 3 + imaginary part  = degree 1 
 degree 0 –  real part = degree 2
+
+
+
 
 
 
