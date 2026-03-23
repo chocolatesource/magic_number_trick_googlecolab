@@ -7,7 +7,7 @@ The above code is try to mimic the simplification of the equation inside the cal
 Consider question 2020 6a in core
  <img width="974" height="305" alt="image" src="https://github.com/user-attachments/assets/3430eafc-fe84-4b84-81aa-d4f1891bb52d" />
  
-By making the equation into the calculator
+By making the equation into the calculator\n
 
 It can solve by sub. x into i in complex number in calculator 
 real part = degree 0
