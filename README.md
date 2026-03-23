@@ -19,11 +19,7 @@ By making the equation into the calculator
 
 It can solve by sub. x into i in complex number in calculator
 
-----
-
 real part = degree 0
-
-----
 
 imaginary part = degree 1
 
@@ -37,11 +33,7 @@ By making the equation into the calculator
 
 it can be use to evaluate the quadratic equation fast by
 
-----
-
 sub x = 0 get the degree 0 part
-
-----
 
 sub x = i
 
@@ -50,23 +42,20 @@ imaginary part = degree 1
 degree 0 – real part = degree 2
 
 --------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------
 
 
 This method can also solve questions for degree 3 and follow the same procedure with
 
-By making the equation into the calculator
+Consider question 2022 7a in m2 past paper
 
-----
+<img width="688" height="139" alt="Screenshot 2026-03-23 165843" src="https://github.com/user-attachments/assets/efc3b0fc-dcbb-48f2-9122-58c441d912db" />
+
+
+By making the equation into the calculator
 
 sub x = 0 get the degree 0 part
 
-----
-
 hand calculate degree 3 part
-
-----
 
 sub x = i
 
@@ -87,11 +76,7 @@ This method lose its light
 
 Therefore, the code provided can sub Y for example into sqrt (2)
 
-----
-
 sub x = 0 and y = 0 get the degree 0
-
-----
 
 sub x = i and y = 0
 
@@ -99,15 +84,11 @@ imaginary part = X part
 
 degree 0 – real part = X^2 part
 
-----
-
 sub y = i and x = 0
 
 imaginary part = Y part
 
 degree 0 – real part = Y^2 part
-
-----
 
 Then sub X = i and sub Y = sqrt(2)
 
