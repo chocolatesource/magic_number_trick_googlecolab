@@ -1,106 +1,46 @@
-This program finds integers where multiplying by any irrational number α produces a
-specific decimal pattern. It scans fractional parts of n·α — which spread uniformly across
-[0,1) by Weyl's theorem — and collects indices landing in a tiny target window. The demo
-uses 77·√2, finding a multiplier that reveals ".77" after the decimal point.
+[source: 1] What does this programe do //bold//
+this programe find an integer that multiply specific irrational number into indicated number appear after the decimal point.
+[source: 2] For example, ml2(math.sqrt(2), 10**6, 5, 1001) will find a list of integer for example 7979 that are able to multiply to sqrt(2) and output the indicated number .01001~~~
 
-The code is a fail attempt trying to simplify equation in HKDSE in Core or M 2
-
-Since the calculator approved by the gov do not support simplification of equation
-
-The above code is try to mimic the simplification of the equation inside the calculator.
-
---------------------------------------------------------------------------------------------------
-
-Consider question 2020 6a in core
-<img width="974" height="305" alt="image" src="https://github.com/user-attachments/assets/c76e02a3-fab6-4b9b-a052-f4556fc61563" />
+7979 * sqrt(2) = 11284.0100142
 
 
-By making the equation into the calculator
+line //---
 
-It can solve by sub. x into i in complex number in calculator
+Purpose of this programe //bold//
+This is to solve algebraic simplification in calculator in hong kong university entrance exam (HKDSE)
+and mimic the method of x = 0.01
 
-real part = degree 0
+for example, when solving the following equation
+<img width="460" height="345" alt="v4-460px-Factor-Second-Degree-Polynomials-(Quadratic-Equations)-Step-3-Version-3" src="https://github.com/user-attachments/assets/5c4ecc65-1627-4d76-ba37-888eb42dc338" />
+by substituting x = 0.01 we get the output of 6.1306 in calculator 
+which is the same answer in simplification by reading from the right to the left:
+degree 2 is 6
+degree 1 is 13
+constant part is 6 
+[source: 3] 
 
-imaginary part = degree 1
+line //---
 
---------------------------------------------------------------------------------------------------
+Evaulation //bold//
+The first purpose of the programe is fail attempt to mimic substituting x = 0.01 as the following 
+1. The result get too big(the number before decimal point) causes the calculator do not calculate the number after the decimal point
+2. The result is more complicated than substituting x = 0.01 when solving degree 2 polynomial, the above example, need to substitute 2 time (one x = sqrt(2) for example, and must sub x = 0 to get constant part for subtraction of the degree 2 part)
 
-Consider question 2018 11ai in m2 past paper
+line //---
 
-<img width="974" height="318" alt="image" src="https://github.com/user-attachments/assets/220e3f61-30dc-444f-82d7-e6b6e30c2d74" />
+Another purpose //bold//
+Another purpose of the progamee are able to more easy 
+[source: 4] to memorize result with specific scope of function
 
-By making the equation into the calculator
-
-it can be use to evaluate the quadratic equation fast by
-
-sub x = 0 get the degree 0 part
-
-sub x = i
-
-imaginary part = degree 1
-
-degree 0 – real part = degree 2
-
---------------------------------------------------------------------------------------------------
-
-
-This method can also solve questions for degree 3 and follow the same procedure with
-
-Consider question 2022 7a in m2 past paper
-
-<img width="688" height="139" alt="Screenshot 2026-03-23 165843" src="https://github.com/user-attachments/assets/efc3b0fc-dcbb-48f2-9122-58c441d912db" />
-
-
-By making the equation into the calculator
-
-sub x = 0 get the degree 0 part
-
-hand calculate degree 3 part
-
-sub x = i
-
-degree 3 + imaginary part = degree 1
-
-degree 0 – real part = degree 2
-
-
---------------------------------------------------------------------------------------------------
-
-However when encounter with X and Y variables with degree at most 2 degree
-
-For example 2021 Q19 cii in core
-<img width="974" height="65" alt="image" src="https://github.com/user-attachments/assets/44f0b243-7023-46bf-8db1-b96c9fbf853e" />
-
-
-This method lose its light
-
-Therefore, the code provided can sub Y for example into sqrt (2)
-
-sub x = 0 and y = 0 get the degree 0
-
-sub x = i and y = 0
-
-imaginary part = X part
-
-degree 0 – real part = X^2 part
-
-sub y = i and x = 0
-
-imaginary part = Y part
-
-degree 0 – real part = Y^2 part
-
-Then sub X = i and sub Y = sqrt(2)
-
-Imaginary part * 7979 after the decimal point = XY part
-
---------------------------------------------------------------------------------------------------
-
-
-Failure
-
-But later this Y part can be sub. for example 0.0001 instead of sqrt(2)
-
-Which can reduce the chance of calculator ignoring smaller digit which is better.
+for example to memorize cos(pi//n) for n = 5, 6, 8, 10, 12
+we are able to extract the number by multiply 16 * (cos(pi//n) ^2) * 107
+write down first integer of the after decimal point 
+sqrt root the above integer
+then the multiply 16 * (cos(pi//n) ^2) include either 1 or 2 or 4 times the integer.
+[source: 5] for example 16 * cos(pi//12) ^2 = 8+4sqrt(3)
+16 * (cos(pi//n) ^2) * 107 = 1597.32
+Then by dividing n // 3, that is 12//3 = 4
+we know that the result 16 * cos(pi//12) ^2 is consist of 4sqrt(3)
 
 
