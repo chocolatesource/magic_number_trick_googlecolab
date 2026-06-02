@@ -41,4 +41,5 @@ then the multiply 16 * (cos(pi//n) ^2) include either 1 or 2 or 4 times the inte
 for example 16 * cos(pi//12) ^2 = 8+4sqrt(3)<br>
 16 * (cos(pi//n) ^2) * 107 = 1597.32<br>
 Then by dividing n // 3, that is 12//3 = 4<br>
-we know that the result 16 * cos(pi//12) ^2 is consist of 4sqrt(3)
+we know that the result 16 * cos(pi//12) ^2 is consist of 4sqrt(3)<br>
+which we know cos(pi//12) by subtrating the respective value
