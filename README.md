@@ -1,8 +1,8 @@
 ## **What does this programe do**
 this programe find an integer that multiply specific irrational number into indicated number appear after the decimal point.<br>
-For example, ml2(math.sqrt(2), 10**6, 5, 1001) will find a list of integer for example 7979 that are able to multiply to sqrt(2) and output the indicated number .01001~~~
+For example, ml2(math.sqrt(2), 10**6, 5, 1001) will find a list of integer for example 7979 that are able to multiply to sqrt(2) and output the indicated number after decimal point .01001~~~
 
-7979 * sqrt(2) = 11284.0100142
+7979 * sqrt(2) = 11284.**01001**42
 
 
 ---
