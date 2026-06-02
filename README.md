@@ -14,7 +14,7 @@ and mimic the method of x = 0.01
 for example, when solving the following equation<br>
 <img width="460" height="345" alt="v4-460px-Factor-Second-Degree-Polynomials-(Quadratic-Equations)-Step-3-Version-3" src="https://github.com/user-attachments/assets/d94980f7-7740-42e3-92fd-06ae66e21b1c" /> <br>
 
-by substituting x = 0.01 we get the output of 6.1306 in calculator<br>
+by substituting x = 0.01 and typing (2x+3)(3x+2) we get the output of 6.1306 in calculator<br>
 which is the same answer in simplification by reading from the right to the left:<br>
 degree 2 is 6<br>
 degree 1 is 13<br>
