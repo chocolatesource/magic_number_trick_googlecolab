@@ -1,4 +1,3 @@
-<img width="849" height="57" alt="Screenshot 2026-03-23 154257" src="https://github.com/user-attachments/assets/b35bb9bb-e13d-4e7a-8429-bdc05bf9c38d" />
 ## **What does this programe do**
 this programe find an integer that multiply specific irrational number into indicated number appear after the decimal point.<br>
 For example, ml2(math.sqrt(2), 10**6, 5, 1001) will find a list of integer for example 7979 that are able to multiply to sqrt(2) and output the indicated number after decimal point .01001~~~
@@ -23,6 +22,7 @@ constant part is 6<br>
 
 A more difficult example is this <br>
 <img width="849" height="57" alt="Screenshot 2026-03-23 154257" src="https://github.com/user-attachments/assets/ef938f14-b5d1-4656-af61-0b7030be367e" /><br>
+which can be solve by sub. x, y = i , 0.001 and 0 respectively <br>
 
 ---
 
